@@ -1,5 +1,17 @@
+:root{
+  --textColor:#e5e5e5;
+  --primaryColor: #272626;
+  --secondaryColor: #424040;
+}
 *{
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+}
+
+body{
+  font-family: 'Rokkitt', serif;
+  /* max-width: 768px; */
+  background-color: var(--secondaryColor);
+  color: var(--textColor);
 }

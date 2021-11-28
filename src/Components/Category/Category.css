@@ -1,0 +1,35 @@
+.category{
+    position: relative;
+    width: 80%;
+    height: 160px;
+    margin: 50px auto;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.category__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.category__caption{
+    position: absolute;
+    bottom: 35%;
+    width: 100%;
+    background-color: rgba(126, 71, 34, 0.65);
+    text-align: center;
+    padding: 10px;
+}
+.category__caption.veggies{
+    background-color:rgba(34, 128, 19, 0.65);
+}
+.category__caption.bebidas{
+    background-color:rgba(153, 82, 82, 0.58);
+}
+
+.category__title{
+    color: var(--textColor);
+    font-size: 25px;
+    text-transform: uppercase;
+}
