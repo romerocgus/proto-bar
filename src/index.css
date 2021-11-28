@@ -11,7 +11,8 @@
 
 body{
   font-family: 'Rokkitt', serif;
-  /* max-width: 768px; */
+  margin: auto;
+  max-width: 768px;
   background-color: var(--secondaryColor);
   color: var(--textColor);
 }

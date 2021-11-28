@@ -2,9 +2,9 @@
     position: relative;
     width: 80%;
     height: 160px;
-    margin: 50px auto;
     border-radius: 6px;
     overflow: hidden;
+    margin-top: 45px;
 }
 
 .category__img{

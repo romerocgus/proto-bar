@@ -1,5 +1,5 @@
 import React from "react";
-import { Category } from "../../Components/Category";
+import { CategoryButton } from "../../Components/CategoryButton";
 import brandLogo from "../../Images/homeBurger.svg";
 import './Home.css';
 
@@ -33,10 +33,10 @@ function Home(){
                 <img src={brandLogo} alt=""/>
                 <h1 className="header__brand">BRAND</h1>
             </header>
-            <main>
-                <h2 class= "about">"las mejores hamburguesas de tu vida"</h2>
+            <main className="container">
+                <h2 className= "about">"las mejores hamburguesas de tu vida"</h2>
                 {categories.map(cat =>
-                    <Category name={cat.name} img={cat.img}/>
+                    <CategoryButton key={cat.name} name={cat.name} img={cat.img}/>
                 )
                 }
             </main>

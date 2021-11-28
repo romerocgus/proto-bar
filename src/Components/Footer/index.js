@@ -6,21 +6,21 @@ import "./Footer.css";
 
 function Footer(){
     return (
-        <footer class="footer">
-            <ul class="footer__list">
-                <li class="footer__listItem">
+        <footer className="footer">
+            <ul className="footer__list">
+                <li className="footer__listItem">
                     <a href="/" target="_blank" rel="noreferrer">
-                        <img class="footer__img" src={igImg} alt=""/>
+                        <img className="footer__img" src={igImg} alt=""/>
                     </a>
                 </li>
-                <li class="footer__listItem">
+                <li className="footer__listItem">
                     <a href="/" target="_blank" rel="noreferrer">
-                        <img class="footer__img" src={facebookImg} alt=""/>
+                        <img className="footer__img" src={facebookImg} alt=""/>
                     </a>
                 </li>
-                <li class="footer__listItem">
+                <li className="footer__listItem">
                     <a href="/" target="_blank" rel="noreferrer">
-                        <img class="footer__img" src={world} alt=""/>
+                        <img className="footer__img" src={world} alt=""/>
                     </a>
                 </li>
             </ul>
