@@ -38,7 +38,7 @@ function Entrantes(){
                 )}
                 {!!openModal && (
                     <DetailsModal>
-                    <div className="modal__background"onClick={()=>setOpenModal(null)}>
+                    <div className="modal__background" onClick={()=>setOpenModal(null)}>
                         <div className="modal__container">
                             <h1 className="modal__title">{openModal.name}</h1>
                             <img className="modal__img" src={openModal.image} alt=""/>
